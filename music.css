@@ -16,44 +16,41 @@
 .music-player {
   background: #ffe0e5;
   width: 400px;
-  /* height: 400px; */
   padding: 25px 35px;
   text-align: center;
 }
 nav {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 nav .circle {
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
   background: #fff;
   color: #f53192;
   box-shadow: 0 5px 10px rgba(255, 26, 26, 0.22);
 }
 .girl {
-  width: 200px;
-  height: 210px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   border: 8px solid #fff;
   box-shadow: 0 10px 60px rgba(255, 26, 26, 0.22);
 }
 .music-player h1 {
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 600;
   color: #333;
   margin-top: 20px;
 }
 .music-player p {
-  font-size: 14px;
+  font-size: 16px;
   color: #333;
 }
-/* audio {
-  height: 30px;
-} */
+
 #progress {
   -webkit-appearance: none;
   width: 100%;
@@ -61,7 +58,7 @@ nav .circle {
   background: #f53192;
   border-radius: 4px;
   cursor: pointer;
-  margin: 40px 0;
+  margin: 35px 0;
 }
 #progress::-webkit-slider-thumb {
   -webkit-appearance: none;
@@ -79,9 +76,9 @@ nav .circle {
 }
 
 .controls div {
-  width: 60px;
-  height: 60px;
-  margin: 20px;
+  width: 40px;
+  height: 40px;
+  margin: 25px;
   background: #fff;
   display: inline-flex;
   justify-content: center;
@@ -92,7 +89,7 @@ nav .circle {
   cursor: pointer;
 }
 .controls div:nth-child(2) {
-  transform: scale(1.5);
+  transform: scale(1.25);
   background: #f53192;
   color: #fff;
 }
