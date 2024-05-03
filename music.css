@@ -78,12 +78,12 @@ nav .circle {
   align-items: center;
 }
 
-.controls div{
+.controls div {
   width: 60px;
   height: 60px;
   margin: 20px;
   background: #fff;
-  display:inline-flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
@@ -91,7 +91,7 @@ nav .circle {
   box-shadow: 0 5px 5px rgba(255, 26, 26, 0.22);
   cursor: pointer;
 }
-.controls div:nth-child(2){
+.controls div:nth-child(2) {
   transform: scale(1.5);
   background: #f53192;
   color: #fff;
